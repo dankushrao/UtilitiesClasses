@@ -75,6 +75,7 @@ public class CommonUtils {
      * @param pixels The pixels value to convert
      *
      * @return The DIP value for the current screen of the given pixels value.
+     * Dhananajya a
      */
     public static float convertPixelsToDIP(Context context, int pixels) {
         DisplayMetrics displayMetrics = context.getResources().getDisplayMetrics();
